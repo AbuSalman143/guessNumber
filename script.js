@@ -40,7 +40,7 @@ function validateGuess(guess){
         alert(`Please enter a number Less than 1 `);
     } else{
         preGuess.push(guess)
-        if(numGuess===10){
+        if(numGuess===11){
             displayguess(guess);
             displayMessage(`Ohh...Sorry You Loss The Game . Game Over. Random number was ${randomNumber}`);
             endGame();
@@ -76,7 +76,7 @@ function displayMessage(message){
     
 loworhig.innerHTML=`<h2 id="LossGame">${message}</h2>`;
 const guess=parseInt(userInput.value);
-if(numGuess===11){
+if(numGuess===12){
     let lossGame=document.querySelector("#LossGame");
     lossGame.style.backgroundColor="red";
     loworhig.style.color="white";   
