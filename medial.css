@@ -167,17 +167,17 @@
         box-shadow: -4px 4px rgba(0, 0, 0, 0.438);
         color: white;
         padding: 10px;
-        width: 149px;
+        width: 165px;
         border-radius: 10px;
-        margin: 0px 81px;
+        margin: 0px 54px;
         height: 20px;
         z-index: 1;
-        /* padding: 103px; */
+        /
     }
     #newGame {
         /* padding: 0px 0px; */
         font-size: 21px;
-        line-height: 15px;
+        line-height: 8px;
         text-align: center;
     }
     .text {
