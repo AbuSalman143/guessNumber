@@ -1,0 +1,207 @@
+@media screen and (min-width:1200px) {
+    label {
+        font-size: 25px;
+        font-weight: 600;
+        margin: 25%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .main-container {
+        display: flex;
+        flex-direction: column-reverse;
+        height: 100vh;
+        justify-content: space-around;
+    }
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        width: 98%;
+        height: 0px;
+    }
+
+    .text {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        /* height: 200px; */
+        /* border: 2px solid; */
+    }
+
+    h3 {
+        display: none;
+    }
+    .text p {
+        font-size: 16px;
+        padding: 0px 0px;
+        text-align: center;
+        line-height: 28px;
+        width: 200px;
+    }
+
+    .form {
+       
+        height: 200px;
+        width: 700px;
+    }
+    label {
+        text-align: center;
+        font-size: 18px;
+        margin: 23%;
+    
+    }
+    input {
+        width: 98%;
+        height: 30px;
+        margin: 18px 30px 2px 0px;
+        border-radius: 5px;
+        border: none;
+    }
+    input[type="submit"] {
+        margin: 5px 25%;
+        width: 40%;
+        width:131px  ;
+        height: 40px;
+       
+        font-size: 18px;
+       
+    }
+    .output{
+        width: 95%;
+        height: 121px;
+        
+    }
+
+    .output h2{
+       font-size: 20px;
+       margin-top: 40px;
+    }
+
+     .result .button{
+        background-color: rgb(83, 159, 231);
+        box-shadow: -4px 4px rgba(0, 0, 0, 0.438);
+        color: white;
+        padding: 10px;
+        width: 130px;
+        border-radius: 20px;
+        margin: 265px -200px;
+        height: 20px;
+        z-index: 1;
+
+        /* padding: 103px; */
+
+}
+.result .button h5{
+    
+    line-height: 0px;
+}
+
+.result  p{
+    font-size: 18px;
+    margin: 0 
+}
+
+}
+
+
+@media screen and (max-width:420px) {
+
+    body{
+        background-color: rgb(160, 120, 60);
+        position: relative;
+    }
+    .main-container {
+        margin-top: 120px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100vh;
+        justify-content: space-around;
+        width: 100%;
+        position: fixed;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        width: 98%;
+        height:700px;
+    }
+    .output {
+        width: 90%;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .form {
+        margin-top: -40px;
+        border: 2px solid;
+        height: 150px;
+        width: 100%;
+    }
+
+    label {
+        font-size: 25px;
+        font-weight: 600;
+        margin: 19%;
+        text-align: center;
+    }
+    input[type="submit"]{
+        margin: 5px 30%;
+    }
+
+    .result {
+        width: 100%;
+        height: 207px;
+        /* border: 2px solid; */
+    }
+    .result .button {
+        background-color: rgb(83, 159, 231);
+        box-shadow: -4px 4px rgba(0, 0, 0, 0.438);
+        color: white;
+        padding: 10px;
+        width: 149px;
+        border-radius: 10px;
+        margin: 0px 81px;
+        height: 20px;
+        z-index: 1;
+        /* padding: 103px; */
+    }
+    #newGame {
+        /* padding: 0px 0px; */
+        font-size: 21px;
+        line-height: 15px;
+        text-align: center;
+    }
+    .text {
+        
+        height: 120px;
+        width: 90%;
+       
+    }
+    .text p {
+        font-size: 16px;
+        padding: 0px 0px;
+        text-align: center;
+        line-height: 22px;
+        width: 100%;
+    }
+   
+    .output h2 {
+        font-size: 18px;
+        height: 50px;
+        width: 800px;
+        text-align: center;
+        line-height: 25px;
+        border-radius: 5px;
+        background-color: rgb(232, 160, 51);
+    }
+   
+}
